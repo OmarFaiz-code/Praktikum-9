@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+/* Beritahu Tailwind agar juga memindai file React di dalam folder Modules */
+@source '../../Modules/**/resources/js/**/*.tsx';
+@source '../js/**/*.tsx';
